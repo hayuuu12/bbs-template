@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css');
+@import url('animate.min.css');
+@import url('bootstrap.min.css');
+
+body{
+    font-family: "Noto Sans KR", sans-serif;
+    background: #dff1f8;
+}
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1440px;
+    }
+}
+header{
+    background-color: #12406b;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+a.brand{
+    color: #fcfab0;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+}
+nav{
+    margin-left: 30px;
+}
+nav a{
+    color: #fff;
+    margin-right: 15px;
+    line-height: 30px;
+}
+aside{
+    width: 300px;
+}
+section{
+    width:calc(100% - 300px);
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.listbox{
+    background: #fff;
+    padding: 40px;
+}
+.listbox h1{
+    font-size: 25px;
+}
+.listbox .table{
+    border-bottom: 1px solid #dee2e6;
+}
+.listbox th{
+    text-align: center;
+    position: relative;
+}
+.listbox th:not(:last-child)::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 15px;
+    background: #afd6e6;
+    box-shadow: 1px 0 0 #afd6e6;
+    position: absolute;
+    right: 0;
+    top: 18px;
+}
+.listbox td a{
+    margin-left: 15px;
+    color:#1d1e1f;
+    display: inline-block;
+    max-width: 370px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.listbox td span{
+    font-size: 13px;
+    margin-left: 5px;
+    vertical-align: top;
+}
+.listbox td i{
+    font-size: 16px;
+    margin-left: 5px;
+    vertical-align: top;
+}
+.re{
+    display: inline-block;
+    width: 20px;
+}
+
+/* 페이징*/
+.paging{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.paging li{
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.paging li a{
+    color: #434c53;
+    padding: 5px 10px;
+}
+.paging li a:hover,
+.paging li a.active{
+    background: #434c53;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
