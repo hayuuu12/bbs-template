@@ -43,7 +43,7 @@ section{
     padding-left: 15px;
     padding-top: 15px;
 }
-.listbox{
+.listbox, .register, .write, .member, .memberlist, .update, .contents, .delete{
     background: #fff;
     padding: 40px;
 }
@@ -92,7 +92,7 @@ section{
     width: 20px;
 }
 
-/* 페이징*/
+/********* 페이징 ************/
 .paging{
     list-style-type: none;
     display: flex;
@@ -113,4 +113,31 @@ section{
     border-radius: 5px;
     color: #fff;
     text-decoration: none;
+}
+
+/************ 검색 *************/
+.searchform{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dropdown-menu{
+    min-width: 95%;
+}
+.input-group-prepend{
+    position: relative;
+}
+.dropdown-item{
+    padding: 0.25rem 1.1rem;
+}
+
+/************  register **************/
+.registerform{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 50px;
+}
+.registerform label{
+    display: block;
+    width: 160px;
 }
