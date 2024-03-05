@@ -2,6 +2,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css');
 @import url('animate.min.css');
 @import url('bootstrap.min.css');
+@import url('summernote-bs4.css');
 
 body{
     font-family: "Noto Sans KR", sans-serif;
@@ -72,7 +73,7 @@ section{
     margin-left: 15px;
     color:#1d1e1f;
     display: inline-block;
-    max-width: 370px;
+    max-width: 380px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -84,7 +85,7 @@ section{
 }
 .listbox td i{
     font-size: 16px;
-    margin-left: 5px;
+    margin-left: 1px;
     vertical-align: top;
 }
 .re{
@@ -124,12 +125,13 @@ section{
 .dropdown-menu{
     min-width: 95%;
 }
-.input-group-prepend{
-    position: relative;
-}
 .dropdown-item{
     padding: 0.25rem 1.1rem;
 }
+.input-group-prepend{
+    position: relative;
+}
+
 
 /************  register **************/
 .registerform{
@@ -139,5 +141,18 @@ section{
 }
 .registerform label{
     display: block;
-    width: 160px;
+    background-color: #e8eaeb;
+    line-height: 35px;
+    margin-top: 5px;
+    flex-basis: 125px;
+    max-width: 125px;
+}
+/************  글쓰기 **************/
+label.form-label{
+    display: inline-block;
+    width: 100px;
+    padding-left: 30px;
+}
+.writeform, .form-control{
+    width: calc(100% - 120px);
 }
