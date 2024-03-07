@@ -153,6 +153,15 @@ label.form-label{
     width: 100px;
     padding-left: 30px;
 }
-.writeform, .form-control{
+.writeform .form-control{
     width: calc(100% - 120px);
+}
+
+footer{
+    background-color:#434c53;
+    color:#fff;
+    text-align:center;
+    line-height:60px;
+    margin-left:-15px;
+    margin-right:-15px;
 }
