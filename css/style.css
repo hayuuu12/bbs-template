@@ -48,6 +48,9 @@ section{
     background: #fff;
     padding: 40px;
 }
+.listbox{
+    border-bottom: 1px solid #ddd;
+}
 .listbox h1{
     font-size: 25px;
 }
@@ -91,6 +94,31 @@ section{
 .re{
     display: inline-block;
     width: 20px;
+}
+.comment-btn{
+    width: 10%;
+    background: #434c53;
+    color: #fff;
+}
+.comments .btn-box{
+    position: relative;
+    cursor: pointer;
+}
+.edel{
+    border: 1px solid #434c53;
+    width: 80px;
+    padding:10px 15px;
+    background: #fff;
+    position: absolute;
+    z-index: 100;
+    right:-50px;
+    display: none;
+}
+.edel a{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /********* 페이징 ************/
